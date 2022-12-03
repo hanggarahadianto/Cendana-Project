@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_banking_partner_bungas",
+  "info": {
+    "displayName": "Bunga",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Program": {
+      "type": "component",
+      "repeatable": true,
+      "component": "banking-partner.program"
+    }
+  }
+}

@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "cendana_karawacis",
+  "info": {
+    "singularName": "cendana-karawaci",
+    "pluralName": "cendana-karawacis",
+    "displayName": "Karawaci Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Section_1": {
+      "displayName": "Section 1",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-karawaci.section-1"
+    },
+    "Section_2": {
+      "displayName": "Section 2",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-karawaci.section-2"
+    },
+    "Product": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-karawaci.product"
+    },
+    "Promotion": {
+      "displayName": "Promotion",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-karawaci.promotion"
+    }
+  }
+}

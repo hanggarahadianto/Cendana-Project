@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_spark_home_slides",
+  "info": {
+    "displayName": "Slides"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

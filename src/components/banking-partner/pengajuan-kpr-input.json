@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_banking_partner_pengajuan_kpr_inputs",
+  "info": {
+    "displayName": "Pengajuan KPR Input"
+  },
+  "options": {},
+  "attributes": {
+    "Data": {
+      "type": "text"
+    }
+  }
+}

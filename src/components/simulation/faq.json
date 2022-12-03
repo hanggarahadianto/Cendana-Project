@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_simulation_faqs",
+  "info": {
+    "displayName": "Faq",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Ask": {
+      "type": "text",
+      "required": true
+    },
+    "Answer": {
+      "type": "text"
+    }
+  }
+}

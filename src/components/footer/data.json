@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_footer_data",
+  "info": {
+    "displayName": "Data-Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Phone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "text"
+    }
+  }
+}

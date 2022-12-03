@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cendana_story_additional_data",
+  "info": {
+    "displayName": "additional_data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

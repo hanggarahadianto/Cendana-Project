@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_spark_home_places",
+  "info": {
+    "displayName": "Place"
+  },
+  "options": {},
+  "attributes": {
+    "spot": {
+      "type": "text",
+      "required": true
+    },
+    "distance": {
+      "type": "string",
+      "required": true
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true,
+      "required": true
+    },
+    "text": {
+      "type": "text"
+    }
+  }
+}

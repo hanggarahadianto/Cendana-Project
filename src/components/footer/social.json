@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_footer_socials",
+  "info": {
+    "displayName": "Social",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Data_Social": {
+      "displayName": "Data-Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "footer.data-social",
+      "max": 4
+    }
+  }
+}

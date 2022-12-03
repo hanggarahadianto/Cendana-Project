@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_contact_buttons",
+  "info": {
+    "displayName": "Button",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Brochure": {
+      "displayName": "Brochure",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.brochure"
+    },
+    "Virtual_Tour": {
+      "displayName": "Virtual Tour",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.virtual-tour"
+    },
+    "Schedule_Visit": {
+      "displayName": "Schedule Visit",
+      "type": "component",
+      "repeatable": false,
+      "component": "contact.schedule-visit"
+    }
+  }
+}

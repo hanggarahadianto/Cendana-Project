@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_cendana_home_card_products",
+  "info": {
+    "displayName": "card-product"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "location": {
+      "type": "string"
+    },
+    "land_size": {
+      "type": "string"
+    },
+    "building_size": {
+      "type": "string"
+    }
+  }
+}

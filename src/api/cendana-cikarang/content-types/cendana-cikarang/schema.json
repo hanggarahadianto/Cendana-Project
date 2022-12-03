@@ -1,0 +1,36 @@
+{
+  "kind": "singleType",
+  "collectionName": "cendana_cikarangs",
+  "info": {
+    "singularName": "cendana-cikarang",
+    "pluralName": "cendana-cikarangs",
+    "displayName": "Cikarang Homepage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Section_1": {
+      "displayName": "Section_1",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-cikarang.section-1"
+    },
+    "Section_2": {
+      "displayName": "Section_2",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-cikarang.section-2"
+    }
+  }
+}

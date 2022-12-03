@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "clusters",
+  "info": {
+    "singularName": "cluster",
+    "pluralName": "clusters",
+    "displayName": "Cluster",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cluster_name": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

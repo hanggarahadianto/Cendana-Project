@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_simulation_banking_partners",
+  "info": {
+    "displayName": "Banking Partners"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    }
+  }
+}

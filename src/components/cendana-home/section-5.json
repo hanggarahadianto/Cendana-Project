@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cendana_home_section_5s",
+  "info": {
+    "displayName": "section_5"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "testimony": {
+      "displayName": "testimony",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-home.testimony"
+    }
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "landmarks",
+  "info": {
+    "singularName": "landmark",
+    "pluralName": "landmarks",
+    "displayName": "Landmark"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Distance": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

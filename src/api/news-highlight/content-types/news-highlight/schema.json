@@ -1,0 +1,21 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_highlights",
+  "info": {
+    "singularName": "news-highlight",
+    "pluralName": "news-highlights",
+    "displayName": "News Highlight",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "news_update": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::news-update.news-update"
+    }
+  }
+}

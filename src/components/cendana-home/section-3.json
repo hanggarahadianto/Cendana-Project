@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cendana_home_section_3s",
+  "info": {
+    "displayName": "Section_2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Subtitle": {
+      "type": "string",
+      "required": false
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

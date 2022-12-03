@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cendana_home_testimonies",
+  "info": {
+    "displayName": "testimony"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "description": {
+      "type": "richtext"
+    }
+  }
+}

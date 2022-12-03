@@ -1,0 +1,59 @@
+{
+  "kind": "singleType",
+  "collectionName": "cendana_homes",
+  "info": {
+    "singularName": "cendana-home",
+    "pluralName": "cendana-homes",
+    "displayName": "Cendana Home",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "audios",
+        "videos"
+      ]
+    },
+    "Section_1": {
+      "displayName": "Section 1",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-home.section-1"
+    },
+    "Section_2": {
+      "displayName": "Section_3",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-home.section-3"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "Product": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-home.product"
+    }
+  }
+}

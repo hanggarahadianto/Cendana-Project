@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_spark_home_footers",
+  "info": {
+    "displayName": "Footer"
+  },
+  "options": {},
+  "attributes": {
+    "social": {
+      "displayName": "Social",
+      "type": "component",
+      "repeatable": true,
+      "component": "spark-home.social"
+    }
+  }
+}

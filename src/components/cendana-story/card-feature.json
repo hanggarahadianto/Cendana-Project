@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cendana_story_card_features",
+  "info": {
+    "displayName": "card-feature"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    }
+  }
+}

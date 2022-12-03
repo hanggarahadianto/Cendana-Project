@@ -1,0 +1,64 @@
+{
+  "kind": "collectionType",
+  "collectionName": "banking_partners",
+  "info": {
+    "singularName": "banking-partner",
+    "pluralName": "banking-partners",
+    "displayName": "Banking Partner",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Name": {
+      "type": "string",
+      "required": true
+    },
+    "Icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Suku_Bunga": {
+      "type": "string"
+    },
+    "Tenor": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Expired_Date": {
+      "type": "text"
+    },
+    "Start_Date": {
+      "type": "date"
+    },
+    "End_Date": {
+      "type": "date"
+    },
+    "Bunga": {
+      "displayName": "Bunga",
+      "type": "component",
+      "repeatable": true,
+      "component": "banking-partner.bunga"
+    },
+    "Pengajuan_KPR": {
+      "displayName": "Pengajuan KPR",
+      "type": "component",
+      "repeatable": false,
+      "component": "banking-partner.pengajuan-kpr"
+    },
+    "Document_Category": {
+      "displayName": "Document",
+      "type": "component",
+      "repeatable": true,
+      "component": "banking-partner.document"
+    }
+  }
+}

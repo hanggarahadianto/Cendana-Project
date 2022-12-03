@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_karawaci_about_contact_details",
+  "info": {
+    "displayName": "Contact Detail"
+  },
+  "options": {},
+  "attributes": {
+    "Map": {
+      "displayName": "Map",
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.map"
+    },
+    "Marketing_Gallery": {
+      "displayName": "Marketing Gallery",
+      "type": "component",
+      "repeatable": true,
+      "component": "karawaci-about.marketing-gallery"
+    }
+  }
+}

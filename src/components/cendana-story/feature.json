@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cendana_story_features",
+  "info": {
+    "displayName": "feature"
+  },
+  "options": {},
+  "attributes": {
+    "time": {
+      "type": "string"
+    },
+    "journey": {
+      "type": "richtext"
+    }
+  }
+}

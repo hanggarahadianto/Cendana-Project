@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_banking_partner_documents",
+  "info": {
+    "displayName": "Document",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Banking_Category_Input": {
+      "displayName": "Banking Category Input",
+      "type": "component",
+      "repeatable": true,
+      "component": "banking-partner.banking-category-input"
+    }
+  }
+}

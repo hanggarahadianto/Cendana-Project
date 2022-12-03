@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cendana_karawaci_image_promotions",
+  "info": {
+    "displayName": "Image Promotion"
+  },
+  "options": {},
+  "attributes": {
+    "Image_Promotion": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

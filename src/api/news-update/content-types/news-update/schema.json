@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "news_updates",
+  "info": {
+    "singularName": "news-update",
+    "pluralName": "news-updates",
+    "displayName": "News Update",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "required": true
+    },
+    "Date_text": {
+      "type": "text",
+      "required": true
+    },
+    "Date": {
+      "type": "date",
+      "required": true
+    },
+    "Image": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Content": {
+      "type": "richtext"
+    },
+    "Slug": {
+      "type": "uid"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Author": {
+      "type": "string"
+    }
+  }
+}

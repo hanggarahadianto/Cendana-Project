@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cendana_spark_section_2s",
+  "info": {
+    "displayName": "Section_2"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Card_Feature": {
+      "displayName": "Card Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-spark.card-feature",
+      "max": 4
+    }
+  }
+}

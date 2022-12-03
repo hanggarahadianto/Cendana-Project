@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cendana_spark_card_features",
+  "info": {
+    "displayName": "Card Feature"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}

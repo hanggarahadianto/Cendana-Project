@@ -1,0 +1,50 @@
+{
+  "kind": "singleType",
+  "collectionName": "karawaci_abouts",
+  "info": {
+    "singularName": "karawaci-about",
+    "pluralName": "karawaci-abouts",
+    "displayName": "Karawaci About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Section_1": {
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.section-1"
+    },
+    "Product": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.product"
+    },
+    "Contact_Detail": {
+      "displayName": "Contact Detail",
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.contact-detail"
+    }
+  }
+}

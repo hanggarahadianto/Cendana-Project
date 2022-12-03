@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cendana_karawaci_image_slides",
+  "info": {
+    "displayName": "Image Slide"
+  },
+  "options": {},
+  "attributes": {
+    "Image_Slide": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

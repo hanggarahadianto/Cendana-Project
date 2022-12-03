@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_cendana_karawaci_section_2s",
+  "info": {
+    "displayName": "Section 2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Image_Slide": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

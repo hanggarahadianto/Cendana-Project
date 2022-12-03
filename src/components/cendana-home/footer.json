@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cendana_home_footers",
+  "info": {
+    "displayName": "footer",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Contact": {
+      "displayName": "contact",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-home.contact"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cendana_home_section_4s",
+  "info": {
+    "displayName": "section_4"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "card_product": {
+      "displayName": "card-product",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-home.card-product"
+    }
+  }
+}

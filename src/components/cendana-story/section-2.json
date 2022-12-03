@@ -1,0 +1,35 @@
+{
+  "collectionName": "components_cendana_story_section_2s",
+  "info": {
+    "displayName": "section_2",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "text"
+    },
+    "subtitle": {
+      "type": "text"
+    },
+    "image_product": {
+      "displayName": "image product",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-story.image-product"
+    },
+    "Feature": {
+      "displayName": "feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-story.feature"
+    },
+    "Additional_Data": {
+      "displayName": "additional_data",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-story.additional-data",
+      "max": 6
+    }
+  }
+}

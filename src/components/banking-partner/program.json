@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_banking_partner_programs",
+  "info": {
+    "displayName": "Program",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

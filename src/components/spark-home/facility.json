@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_spark_home_facilities",
+  "info": {
+    "displayName": "Facility"
+  },
+  "options": {},
+  "attributes": {
+    "header": {
+      "type": "text",
+      "required": true
+    },
+    "description": {
+      "type": "text",
+      "required": true
+    },
+    "item": {
+      "displayName": "item",
+      "type": "component",
+      "repeatable": true,
+      "component": "homepage.item"
+    }
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cendana_home_section_6s",
+  "info": {
+    "displayName": "section_6"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "news": {
+      "displayName": "news",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-home.news"
+    }
+  }
+}

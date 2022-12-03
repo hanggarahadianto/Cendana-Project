@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_footer_contacts",
+  "info": {
+    "displayName": "Contact",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Data_Contact": {
+      "displayName": "Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "footer.data"
+    }
+  }
+}

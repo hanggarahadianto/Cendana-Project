@@ -1,0 +1,51 @@
+{
+  "kind": "singleType",
+  "collectionName": "cikarang_abouts",
+  "info": {
+    "singularName": "cikarang-about",
+    "pluralName": "cikarang-abouts",
+    "displayName": "Cikarang About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Section_1": {
+      "displayName": "Section_1",
+      "type": "component",
+      "repeatable": false,
+      "component": "cikarang-about.section-1"
+    },
+    "Product": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "cikarang-about.product"
+    },
+    "Section_2": {
+      "displayName": "Section_2",
+      "type": "component",
+      "repeatable": false,
+      "component": "cikarang-about.section-2"
+    }
+  }
+}

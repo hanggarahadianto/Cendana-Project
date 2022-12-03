@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_cendana_karawaci_promotions",
+  "info": {
+    "displayName": "Promotion"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Image_Promotion": {
+      "displayName": "Image Promotion",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-karawaci.image-promotion"
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_karawaci_about_marketing_galleries",
+  "info": {
+    "displayName": "Marketing Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

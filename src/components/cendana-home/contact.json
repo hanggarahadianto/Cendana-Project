@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_cendana_home_contacts",
+  "info": {
+    "displayName": "contact"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

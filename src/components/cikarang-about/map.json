@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_cikarang_about_maps",
+  "info": {
+    "displayName": "Map"
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "string"
+    }
+  }
+}

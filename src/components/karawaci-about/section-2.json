@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_karawaci_about_section_2s",
+  "info": {
+    "displayName": "Section_2"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Landmark": {
+      "displayName": "Landmark",
+      "type": "component",
+      "repeatable": true,
+      "component": "karawaci-about.landmark"
+    }
+  }
+}

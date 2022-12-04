@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * landmark router
+ * unit-type router
  */
 
 const { createCoreRouter } = require('@strapi/strapi').factories;
 
-module.exports = createCoreRouter('api::landmark.landmark');
+module.exports = createCoreRouter('api::unit-type.unit-type');

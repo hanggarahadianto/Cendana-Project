@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_karawaci_about_contact_data",
+  "info": {
+    "displayName": "Contact Data"
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

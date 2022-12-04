@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_cikarang_about_contact_data",
+  "info": {
+    "displayName": "Contact Data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Email": {
+      "type": "string"
+    },
+    "Phone": {
+      "type": "string"
+    }
+  }
+}

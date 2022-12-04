@@ -1,0 +1,37 @@
+{
+  "collectionName": "components_unit_type_details",
+  "info": {
+    "displayName": "Detail"
+  },
+  "options": {},
+  "attributes": {
+    "Land_Size": {
+      "type": "string"
+    },
+    "Building_Size": {
+      "type": "string"
+    },
+    "Dimension": {
+      "type": "string"
+    },
+    "Bedroom": {
+      "type": "string"
+    },
+    "Bathroom": {
+      "type": "string"
+    },
+    "Schedulu_Visit": {
+      "type": "string"
+    },
+    "Virtual_Tour": {
+      "type": "string"
+    },
+    "E_Brochure": {
+      "allowedTypes": [
+        "files"
+      ],
+      "type": "media",
+      "multiple": true
+    }
+  }
+}

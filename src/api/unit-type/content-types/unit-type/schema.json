@@ -1,0 +1,60 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unit_types",
+  "info": {
+    "singularName": "unit-type",
+    "pluralName": "unit-types",
+    "displayName": "Unit Type",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Product_Name": {
+      "type": "string"
+    },
+    "Cluster_Name": {
+      "type": "string"
+    },
+    "Banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Video": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "Description": {
+      "type": "text"
+    },
+    "Feature": {
+      "displayName": "Feature",
+      "type": "component",
+      "repeatable": true,
+      "component": "unit-type.feature"
+    },
+    "Detail": {
+      "displayName": "Detail",
+      "type": "component",
+      "repeatable": false,
+      "component": "unit-type.detail"
+    },
+    "cluster": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::cluster.cluster",
+      "inversedBy": "unit_types"
+    }
+  }
+}

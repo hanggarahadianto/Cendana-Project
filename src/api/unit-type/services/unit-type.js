@@ -1,9 +1,9 @@
 'use strict';
 
 /**
- * landmark service
+ * unit-type service
  */
 
 const { createCoreService } = require('@strapi/strapi').factories;
 
-module.exports = createCoreService('api::landmark.landmark');
+module.exports = createCoreService('api::unit-type.unit-type');

@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_cikarang_about_maketing_galleries",
+  "info": {
+    "displayName": "Maketing_Gallery"
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    }
+  }
+}

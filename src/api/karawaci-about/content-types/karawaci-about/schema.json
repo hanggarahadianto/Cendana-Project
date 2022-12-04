@@ -45,6 +45,12 @@
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.contact-detail"
+    },
+    "Section_2": {
+      "displayName": "Section_2",
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.section-2"
     }
   }
 }

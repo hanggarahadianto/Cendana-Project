@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_karawaci_about_landmarks",
+  "info": {
+    "displayName": "Landmark",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": true
+    },
+    "Distance": {
+      "type": "string"
+    }
+  }
+}

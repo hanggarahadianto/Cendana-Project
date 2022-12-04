@@ -46,6 +46,12 @@
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.section-2"
+    },
+    "Contact_Detail": {
+      "displayName": "Contact Detail",
+      "type": "component",
+      "repeatable": false,
+      "component": "cikarang-about.contact-detail"
     }
   }
 }

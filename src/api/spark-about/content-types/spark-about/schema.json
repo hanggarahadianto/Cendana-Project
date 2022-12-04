@@ -1,0 +1,48 @@
+{
+  "kind": "singleType",
+  "collectionName": "spark_abouts",
+  "info": {
+    "singularName": "spark-about",
+    "pluralName": "spark-abouts",
+    "displayName": "Spark About",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Banner": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "string"
+    },
+    "Section_1": {
+      "displayName": "Section_1",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-about.section-1"
+    },
+    "Section_2": {
+      "displayName": "Section_2",
+      "type": "component",
+      "repeatable": true,
+      "component": "spark-about.section-2"
+    },
+    "Section_3": {
+      "displayName": "Section_3",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-about.section-3"
+    }
+  }
+}

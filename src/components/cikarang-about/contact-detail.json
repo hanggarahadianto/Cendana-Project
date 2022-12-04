@@ -1,5 +1,5 @@
 {
-  "collectionName": "components_karawaci_about_contact_details",
+  "collectionName": "components_cikarang_about_contact_details",
   "info": {
     "displayName": "Contact Detail",
     "description": ""
@@ -10,19 +10,19 @@
       "displayName": "Map",
       "type": "component",
       "repeatable": false,
-      "component": "karawaci-about.map"
+      "component": "cikarang-about.map"
     },
     "Marketing_Gallery": {
-      "displayName": "Marketing Gallery",
+      "displayName": "Maketing_Gallery",
       "type": "component",
       "repeatable": true,
-      "component": "karawaci-about.marketing-gallery"
+      "component": "cikarang-about.maketing-gallery"
     },
     "Contact_Data": {
       "displayName": "Contact Data",
       "type": "component",
       "repeatable": false,
-      "component": "karawaci-about.contact-data"
+      "component": "cikarang-about.contact-data"
     },
     "Title": {
       "type": "string"

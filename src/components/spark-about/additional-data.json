@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_spark_about_additional_data",
+  "info": {
+    "displayName": "Additional_Data"
+  },
+  "options": {},
+  "attributes": {
+    "Hectares": {
+      "type": "string"
+    },
+    "Houses_Built": {
+      "type": "string"
+    },
+    "Population": {
+      "type": "string"
+    },
+    "Entertainment_Center": {
+      "type": "string"
+    },
+    "Healthcare": {
+      "type": "string"
+    },
+    "Education_Center": {
+      "type": "string"
+    }
+  }
+}

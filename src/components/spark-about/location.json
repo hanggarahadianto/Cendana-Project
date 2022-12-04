@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_spark_about_locations",
+  "info": {
+    "displayName": "Location",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Title": {
+      "type": "string"
+    },
+    "Subtitle": {
+      "type": "text"
+    },
+    "Address": {
+      "type": "text"
+    },
+    "Phone": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "string"
+    }
+  }
+}

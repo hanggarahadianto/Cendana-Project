@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_spark_about_journeys",
+  "info": {
+    "displayName": "Journey"
+  },
+  "options": {},
+  "attributes": {
+    "Time": {
+      "type": "string"
+    },
+    "Data_1": {
+      "type": "text"
+    },
+    "Data_2": {
+      "type": "text"
+    },
+    "Data_3": {
+      "type": "text"
+    }
+  }
+}

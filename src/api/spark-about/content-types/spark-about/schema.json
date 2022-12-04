@@ -43,6 +43,12 @@
       "type": "component",
       "repeatable": false,
       "component": "spark-about.section-3"
+    },
+    "Contact_Detail": {
+      "displayName": "Contact_Detail",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-about.contact-detail"
     }
   }
 }

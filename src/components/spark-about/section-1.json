@@ -1,7 +1,8 @@
 {
   "collectionName": "components_spark_about_section_1s",
   "info": {
-    "displayName": "Section_1"
+    "displayName": "Section_1",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -9,21 +10,23 @@
       "type": "string"
     },
     "Subtitle": {
-      "type": "text"
+      "type": "string"
     },
     "Image_1": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "Image_2": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

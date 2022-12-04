@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_spark_about_contact_details",
+  "info": {
+    "displayName": "Contact_Detail"
+  },
+  "options": {},
+  "attributes": {
+    "Map": {
+      "displayName": "Map",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-about.map"
+    },
+    "Location": {
+      "displayName": "Location",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-about.location"
+    }
+  }
+}

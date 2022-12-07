@@ -6,28 +6,28 @@
   },
   "options": {},
   "attributes": {
-    "Map": {
+    "map": {
       "displayName": "Map",
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.map"
     },
-    "Marketing_Gallery": {
+    "marketing_gallery": {
       "displayName": "Marketing Gallery",
       "type": "component",
       "repeatable": true,
       "component": "karawaci-about.marketing-gallery"
     },
-    "Contact_Data": {
+    "contact_data": {
       "displayName": "Contact Data",
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.contact-data"
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     }
   }

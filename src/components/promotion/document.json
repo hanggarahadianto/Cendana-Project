@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_promotion_documents",
+  "info": {
+    "displayName": "Document"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "document_data": {
+      "displayName": "Document Data",
+      "type": "component",
+      "repeatable": false,
+      "component": "promotion.document-data"
+    }
+  }
+}

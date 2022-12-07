@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Program": {
+    "program": {
       "type": "component",
       "repeatable": true,
       "component": "banking-partner.program"

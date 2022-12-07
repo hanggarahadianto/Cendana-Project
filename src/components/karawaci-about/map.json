@@ -1,11 +1,12 @@
 {
   "collectionName": "components_karawaci_about_maps",
   "info": {
-    "displayName": "Map"
+    "displayName": "Map",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

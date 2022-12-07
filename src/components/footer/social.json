@@ -6,13 +6,13 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Data_Social": {
+    "data_social": {
       "displayName": "Data-Social",
       "type": "component",
       "repeatable": true,

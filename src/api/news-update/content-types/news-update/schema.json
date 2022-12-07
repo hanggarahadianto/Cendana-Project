@@ -12,37 +12,36 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
-      "type": "string",
-      "required": true
-    },
-    "Date_text": {
-      "type": "text",
-      "required": true
-    },
-    "Date": {
-      "type": "date",
-      "required": true
-    },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
-    "Content": {
-      "type": "richtext"
+    "title": {
+      "type": "string",
+      "required": true
     },
-    "Slug": {
-      "type": "uid"
+    "author": {
+      "type": "string"
     },
-    "Description": {
+    "date_text": {
+      "type": "string",
+      "required": true
+    },
+    "date": {
+      "type": "date",
+      "required": true
+    },
+    "description": {
       "type": "text"
     },
-    "Author": {
-      "type": "string"
+    "content": {
+      "type": "richtext"
+    },
+
+    "slug": {
+      "type": "uid"
     }
   }
 }

@@ -1,22 +1,24 @@
 {
   "collectionName": "components_cendana_spark_section_1s",
   "info": {
-    "displayName": "Section_1"
+    "displayName": "Section_1",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Image_Slide": {
+    "image_slide": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

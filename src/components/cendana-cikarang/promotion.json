@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_cendana_cikarang_promotions",
+  "info": {
+    "displayName": "Promotion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
+    "promos": {
+      "displayName": "Promos",
+      "type": "component",
+      "repeatable": true,
+      "component": "cendana-cikarang.promos"
+    }
+  }
+}

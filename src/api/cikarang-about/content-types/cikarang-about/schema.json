@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -23,31 +23,31 @@
         "audios"
       ]
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Section_1": {
+    "section_1": {
       "displayName": "Section_1",
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.section-1"
     },
-    "Product": {
+    "product": {
       "displayName": "Product",
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.product"
     },
-    "Section_2": {
+    "section_2": {
       "displayName": "Section_2",
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.section-2"
     },
-    "Contact_Detail": {
+    "contact_detail": {
       "displayName": "Contact Detail",
       "type": "component",
       "repeatable": false,

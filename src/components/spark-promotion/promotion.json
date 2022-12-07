@@ -1,0 +1,41 @@
+{
+  "collectionName": "components_spark_promotion_promotions",
+  "info": {
+    "displayName": "Promotion",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "date_text": {
+      "type": "string"
+    },
+    "date": {
+      "type": "date"
+    },
+    "unit_type": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unit-type.unit-type"
+    },
+    "document": {
+      "displayName": "Document",
+      "type": "component",
+      "repeatable": false,
+      "component": "spark-promotion.document"
+    }
+  }
+}

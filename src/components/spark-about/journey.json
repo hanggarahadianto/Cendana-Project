@@ -1,21 +1,19 @@
 {
   "collectionName": "components_spark_about_journeys",
   "info": {
-    "displayName": "Journey"
+    "displayName": "Journey",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Time": {
+    "time": {
       "type": "string"
     },
-    "Data_1": {
-      "type": "text"
-    },
-    "Data_2": {
-      "type": "text"
-    },
-    "Data_3": {
-      "type": "text"
+    "journey_data": {
+      "displayName": "Journey Data",
+      "type": "component",
+      "repeatable": true,
+      "component": "spark-about.journey-data"
     }
   }
 }

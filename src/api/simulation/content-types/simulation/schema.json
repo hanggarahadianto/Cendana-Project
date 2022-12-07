@@ -12,19 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Faq": {
+    "faq": {
       "displayName": "Faq",
       "type": "component",
       "repeatable": true,
       "component": "simulation.faq"
     },
-    "Banking_Partners": {
+    "banking_partners": {
       "displayName": "Banking Partners",
       "type": "component",
       "repeatable": false,

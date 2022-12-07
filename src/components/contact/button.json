@@ -6,19 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "Brochure": {
+    "brochure": {
       "displayName": "Brochure",
       "type": "component",
       "repeatable": false,
       "component": "contact.brochure"
     },
-    "Virtual_Tour": {
+    "virtual_tour": {
       "displayName": "Virtual Tour",
       "type": "component",
       "repeatable": false,
       "component": "contact.virtual-tour"
     },
-    "Schedule_Visit": {
+    "schedule_visit": {
       "displayName": "Schedule Visit",
       "type": "component",
       "repeatable": false,

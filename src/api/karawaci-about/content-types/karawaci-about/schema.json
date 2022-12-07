@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -23,30 +23,30 @@
         "audios"
       ]
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Section_1": {
+    "section_1": {
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.section-1"
     },
-    "Product": {
+    "product": {
       "displayName": "Product",
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.product"
     },
-    "Contact_Detail": {
+    "contact_detail": {
       "displayName": "Contact Detail",
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.contact-detail"
     },
-    "Section_2": {
+    "section_2": {
       "displayName": "Section_2",
       "type": "component",
       "repeatable": false,

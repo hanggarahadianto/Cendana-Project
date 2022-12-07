@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "Phone": {
+    "phone": {
       "type": "string"
     },
-    "Email": {
+    "email": {
       "type": "text"
     }
   }

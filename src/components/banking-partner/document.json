@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Banking_Category_Input": {
+    "banking_category_input": {
       "displayName": "Banking Category Input",
       "type": "component",
       "repeatable": true,

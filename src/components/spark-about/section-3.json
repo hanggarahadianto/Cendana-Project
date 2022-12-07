@@ -6,23 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
-    },
-    "Jouney": {
-      "displayName": "Journey",
-      "type": "component",
-      "repeatable": true,
-      "component": "spark-about.journey"
-    },
-    "Additional_Data": {
-      "displayName": "Additional_Data",
-      "type": "component",
-      "repeatable": false,
-      "component": "spark-about.additional-data"
     }
   }
 }

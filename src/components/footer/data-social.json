@@ -1,25 +1,27 @@
 {
   "collectionName": "components_footer_data_socials",
   "info": {
-    "displayName": "Data-Social"
+    "displayName": "Data-Social",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "text"
     },
-    "Icon": {
+    "icon": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos",
         "audios"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

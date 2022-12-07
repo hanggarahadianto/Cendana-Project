@@ -6,28 +6,28 @@
   },
   "options": {},
   "attributes": {
-    "Map": {
+    "map": {
       "displayName": "Map",
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.map"
     },
-    "Marketing_Gallery": {
+    "marketing_gallery": {
       "displayName": "Maketing_Gallery",
       "type": "component",
       "repeatable": true,
       "component": "cikarang-about.maketing-gallery"
     },
-    "Contact_Data": {
+    "contact_data": {
       "displayName": "Contact Data",
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.contact-data"
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     }
   }

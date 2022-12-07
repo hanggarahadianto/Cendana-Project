@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promotions",
+  "info": {
+    "singularName": "promotion",
+    "pluralName": "promotions",
+    "displayName": "Promotion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "banner": {
+      "type": "media",
+      "multiple": true,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "title": {
+      "type": "text",
+      "required": true
+    },
+    "unit_type": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::unit-type.unit-type",
+      "inversedBy": "promotions"
+    },
+    "date_text": {
+      "type": "string"
+    },
+    "start_date": {
+      "type": "date"
+    },
+    "description": {
+      "type": "text"
+    },
+    "document": {
+      "displayName": "Document",
+      "type": "component",
+      "repeatable": true,
+      "component": "promotion.document"
+    },
+    "end_date": {
+      "type": "date"
+    }
+  }
+}

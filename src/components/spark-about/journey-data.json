@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_spark_about_journey_data",
+  "info": {
+    "displayName": "Journey Data"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "string"
+    }
+  }
+}

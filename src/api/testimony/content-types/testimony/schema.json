@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Testimony": {
+    "testimony": {
       "type": "component",
       "repeatable": true,
       "component": "testimony.testimony"

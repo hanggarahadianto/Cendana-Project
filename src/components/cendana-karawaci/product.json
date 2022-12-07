@@ -11,10 +11,10 @@
       "relation": "oneToMany",
       "target": "api::product.product"
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     }
   }

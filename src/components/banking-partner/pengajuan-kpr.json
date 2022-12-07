@@ -6,10 +6,10 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Pengajuan_KPR_Input": {
+    "pengajuan_kpr_input": {
       "displayName": "Pengajuan KPR Input",
       "type": "component",
       "repeatable": true,

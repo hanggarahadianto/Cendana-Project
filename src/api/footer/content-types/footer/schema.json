@@ -12,18 +12,18 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Contact": {
+    "contact": {
       "type": "component",
       "repeatable": false,
       "component": "footer.contact"
     },
-    "Social": {
+    "social": {
       "type": "component",
       "repeatable": false,
       "component": "footer.social"

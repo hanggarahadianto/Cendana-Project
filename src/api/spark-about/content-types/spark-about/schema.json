@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": true,
       "required": true,
@@ -20,31 +20,25 @@
         "images"
       ]
     },
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Section_1": {
+    "section_1": {
       "displayName": "Section_1",
       "type": "component",
       "repeatable": false,
       "component": "spark-about.section-1"
     },
-    "Section_2": {
+    "section_2": {
       "displayName": "Section_2",
       "type": "component",
       "repeatable": true,
       "component": "spark-about.section-2"
     },
-    "Section_3": {
-      "displayName": "Section_3",
-      "type": "component",
-      "repeatable": false,
-      "component": "spark-about.section-3"
-    },
-    "Contact_Detail": {
+    "contact_detail": {
       "displayName": "Contact_Detail",
       "type": "component",
       "repeatable": false,

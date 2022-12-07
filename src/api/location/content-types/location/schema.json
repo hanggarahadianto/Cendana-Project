@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Location_Name": {
+    "location_name": {
       "type": "string",
       "required": true
     },

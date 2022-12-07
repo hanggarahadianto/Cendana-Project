@@ -12,38 +12,39 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": false,
       "required": false,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Date_Text": {
+    "date_text": {
       "type": "string"
     },
-    "Date": {
+    "date": {
       "type": "date"
     },
-    "Place": {
+    "place": {
       "type": "string"
     },
-    "Description": {
+    "caption": {
       "type": "text"
-    },
-    "Caption": {
-      "type": "string"
     },
     "product": {
       "type": "relation",
       "relation": "manyToOne",
       "target": "api::product.product",
       "inversedBy": "events"
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "slug": {
+      "type": "uid"
     }
   }
 }

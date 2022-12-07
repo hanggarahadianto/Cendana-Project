@@ -1,14 +1,15 @@
 {
   "collectionName": "components_contact_virtual_tours",
   "info": {
-    "displayName": "Virtual Tour"
+    "displayName": "Virtual Tour",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

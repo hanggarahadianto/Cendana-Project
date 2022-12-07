@@ -1,19 +1,21 @@
 {
   "collectionName": "components_contact_brochures",
   "info": {
-    "displayName": "Brochure"
+    "displayName": "Brochure",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Brochure_File": {
+    "brochure_file": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     }
   }
 }

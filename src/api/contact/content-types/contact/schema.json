@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "text"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Button": {
+    "button": {
       "displayName": "Button",
       "type": "component",
       "repeatable": false,

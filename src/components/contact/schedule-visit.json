@@ -1,14 +1,15 @@
 {
   "collectionName": "components_contact_schedule_visits",
   "info": {
-    "displayName": "Schedule Visit"
+    "displayName": "Schedule Visit",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Link": {
+    "link": {
       "type": "string"
     }
   }

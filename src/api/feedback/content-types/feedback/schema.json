@@ -12,20 +12,19 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Name": {
+    "name": {
       "type": "string",
       "required": false
     },
-    "Number": {
+    "number": {
       "type": "string",
       "required": true
     },
-    "Email": {
+    "email": {
       "type": "email"
     },
-    "Feedback": {
-      "type": "richtext",
-      "required": true
+    "feedback": {
+      "type": "text"
     }
   }
 }

@@ -1,22 +1,21 @@
 {
   "collectionName": "components_cendana_story_section_3s",
   "info": {
-    "displayName": "section_3",
+    "displayName": "products",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "text"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Product": {
-      "displayName": "product",
-      "type": "component",
-      "repeatable": false,
-      "component": "cendana-story.product"
+    "products": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::product.product"
     }
   }
 }

@@ -1,11 +1,12 @@
 {
   "collectionName": "components_banking_partner_banking_category_inputs",
   "info": {
-    "displayName": "Banking Category Input"
+    "displayName": "Banking Category Input",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Data": {
+    "data": {
       "type": "text"
     }
   }

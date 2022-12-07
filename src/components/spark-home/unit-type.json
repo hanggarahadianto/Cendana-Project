@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_spark_home_unit_types",
+  "info": {
+    "displayName": "Unit Type"
+  },
+  "options": {},
+  "attributes": {
+    "unit_types": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::unit-type.unit-type"
+    }
+  }
+}

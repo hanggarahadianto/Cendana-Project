@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_cendana_story_journey_data",
+  "info": {
+    "displayName": "Journey Data",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

@@ -1,37 +1,39 @@
 {
   "collectionName": "components_unit_type_details",
   "info": {
-    "displayName": "Detail"
+    "displayName": "Detail",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Land_Size": {
+    "land_size": {
       "type": "string"
     },
-    "Building_Size": {
+    "building_size": {
       "type": "string"
     },
-    "Dimension": {
+    "dimension": {
       "type": "string"
     },
-    "Bedroom": {
+    "bedroom": {
       "type": "string"
     },
-    "Bathroom": {
+    "bathroom": {
       "type": "string"
     },
-    "Schedulu_Visit": {
+    "schedulu_visit": {
       "type": "string"
     },
-    "Virtual_Tour": {
+    "virtual_tour": {
       "type": "string"
     },
-    "E_Brochure": {
+    "e_brochure": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "files"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

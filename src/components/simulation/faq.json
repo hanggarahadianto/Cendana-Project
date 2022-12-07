@@ -6,11 +6,11 @@
   },
   "options": {},
   "attributes": {
-    "Ask": {
+    "ask": {
       "type": "text",
       "required": true
     },
-    "Answer": {
+    "answer": {
       "type": "text"
     }
   }

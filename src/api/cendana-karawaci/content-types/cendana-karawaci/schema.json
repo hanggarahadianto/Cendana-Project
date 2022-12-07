@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": false,
       "required": false,
@@ -20,25 +20,25 @@
         "images"
       ]
     },
-    "Section_1": {
+    "section_1": {
       "displayName": "Section 1",
       "type": "component",
       "repeatable": false,
       "component": "cendana-karawaci.section-1"
     },
-    "Section_2": {
+    "section_2": {
       "displayName": "Section 2",
       "type": "component",
       "repeatable": false,
       "component": "cendana-karawaci.section-2"
     },
-    "Product": {
+    "product": {
       "displayName": "Product",
       "type": "component",
       "repeatable": false,
       "component": "cendana-karawaci.product"
     },
-    "Promotion": {
+    "promotion": {
       "displayName": "Promotion",
       "type": "component",
       "repeatable": false,

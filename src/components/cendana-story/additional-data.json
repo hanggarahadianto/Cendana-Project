@@ -1,15 +1,26 @@
 {
   "collectionName": "components_cendana_story_additional_data",
   "info": {
-    "displayName": "additional_data",
-    "description": ""
+    "displayName": "Additional Data"
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "hectares": {
       "type": "string"
     },
-    "Subtitle": {
+    "houses_built": {
+      "type": "string"
+    },
+    "total_population": {
+      "type": "string"
+    },
+    "entertainment_center": {
+      "type": "string"
+    },
+    "healthcare": {
+      "type": "string"
+    },
+    "education_center": {
       "type": "string"
     }
   }

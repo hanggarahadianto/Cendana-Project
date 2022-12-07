@@ -1,0 +1,12 @@
+{
+  "collectionName": "components_promotion_document_data",
+  "info": {
+    "displayName": "Document Data"
+  },
+  "options": {},
+  "attributes": {
+    "data": {
+      "type": "text"
+    }
+  }
+}

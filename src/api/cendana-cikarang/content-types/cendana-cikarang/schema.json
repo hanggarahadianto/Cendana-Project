@@ -12,7 +12,7 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": false,
       "required": true,
@@ -20,17 +20,29 @@
         "images"
       ]
     },
-    "Section_1": {
+    "section_1": {
       "displayName": "Section_1",
       "type": "component",
       "repeatable": false,
       "component": "cendana-cikarang.section-1"
     },
-    "Section_2": {
+    "section_2": {
       "displayName": "Section_2",
       "type": "component",
       "repeatable": false,
       "component": "cendana-cikarang.section-2"
+    },
+    "product": {
+      "displayName": "Product",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-cikarang.product"
+    },
+    "promotion": {
+      "displayName": "Promotion",
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-cikarang.promotion"
     }
   }
 }

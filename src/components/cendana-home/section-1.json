@@ -6,18 +6,18 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string",
       "required": true
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "string"
     },
-    "Description": {
+    "description": {
       "type": "text",
       "required": false
     },
-    "Image": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,

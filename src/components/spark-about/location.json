@@ -6,19 +6,19 @@
   },
   "options": {},
   "attributes": {
-    "Title": {
+    "title": {
       "type": "string"
     },
-    "Subtitle": {
+    "subtitle": {
       "type": "text"
     },
-    "Address": {
+    "address": {
       "type": "text"
     },
-    "Phone": {
+    "phone": {
       "type": "string"
     },
-    "Email": {
+    "email": {
       "type": "string"
     }
   }

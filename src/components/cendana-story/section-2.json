@@ -1,35 +1,19 @@
 {
   "collectionName": "components_cendana_story_section_2s",
   "info": {
-    "displayName": "section_2",
+    "displayName": "Journey",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "title": {
-      "type": "text"
+    "year": {
+      "type": "string"
     },
-    "subtitle": {
-      "type": "text"
-    },
-    "image_product": {
-      "displayName": "image product",
+    "journey_data": {
+      "displayName": "Journey Data",
       "type": "component",
       "repeatable": true,
-      "component": "cendana-story.image-product"
-    },
-    "Feature": {
-      "displayName": "feature",
-      "type": "component",
-      "repeatable": true,
-      "component": "cendana-story.feature"
-    },
-    "Additional_Data": {
-      "displayName": "additional_data",
-      "type": "component",
-      "repeatable": true,
-      "component": "cendana-story.additional-data",
-      "max": 6
+      "component": "cendana-story.journey-data"
     }
   }
 }

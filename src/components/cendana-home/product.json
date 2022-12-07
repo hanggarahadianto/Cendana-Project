@@ -6,7 +6,7 @@
   },
   "options": {},
   "attributes": {
-    "Products": {
+    "products": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"

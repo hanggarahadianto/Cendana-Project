@@ -1,12 +1,12 @@
 {
   "collectionName": "components_cendana_story_products",
   "info": {
-    "displayName": "product",
+    "displayName": "products",
     "description": ""
   },
   "options": {},
   "attributes": {
-    "Products": {
+    "products": {
       "type": "relation",
       "relation": "oneToMany",
       "target": "api::product.product"

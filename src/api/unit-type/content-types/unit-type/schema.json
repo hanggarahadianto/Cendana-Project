@@ -12,13 +12,13 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "Product_Name": {
+    "product_name": {
       "type": "string"
     },
-    "Cluster_Name": {
+    "cluster_name": {
       "type": "string"
     },
-    "Banner": {
+    "banner": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -26,7 +26,7 @@
         "images"
       ]
     },
-    "Video": {
+    "video": {
       "type": "media",
       "multiple": true,
       "required": false,
@@ -35,16 +35,16 @@
         "videos"
       ]
     },
-    "Description": {
+    "description": {
       "type": "text"
     },
-    "Feature": {
+    "feature": {
       "displayName": "Feature",
       "type": "component",
       "repeatable": true,
       "component": "unit-type.feature"
     },
-    "Detail": {
+    "detail": {
       "displayName": "Detail",
       "type": "component",
       "repeatable": false,
@@ -55,6 +55,18 @@
       "relation": "manyToOne",
       "target": "api::cluster.cluster",
       "inversedBy": "unit_types"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product.product",
+      "inversedBy": "unit_types"
+    },
+    "promotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promotion.promotion",
+      "mappedBy": "unit_type"
     }
   }
 }

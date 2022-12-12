@@ -80,6 +80,12 @@
       "relation": "oneToMany",
       "target": "api::unit-type.unit-type",
       "mappedBy": "product"
+    },
+    "promotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promotion.promotion",
+      "mappedBy": "product"
     }
   }
 }

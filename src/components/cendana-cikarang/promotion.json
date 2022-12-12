@@ -12,11 +12,10 @@
     "subtitle": {
       "type": "string"
     },
-    "promos": {
-      "displayName": "Promos",
-      "type": "component",
-      "repeatable": true,
-      "component": "cendana-cikarang.promos"
+    "promotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promotion.promotion"
     }
   }
 }

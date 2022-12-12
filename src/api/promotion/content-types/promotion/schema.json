@@ -21,8 +21,17 @@
       ]
     },
     "title": {
-      "type": "text",
+      "type": "string",
       "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "product": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::product.product",
+      "inversedBy": "promotions"
     },
     "unit_type": {
       "type": "relation",
@@ -36,17 +45,14 @@
     "start_date": {
       "type": "date"
     },
-    "description": {
-      "type": "text"
+    "end_date": {
+      "type": "date"
     },
     "document": {
       "displayName": "Document",
       "type": "component",
       "repeatable": true,
       "component": "promotion.document"
-    },
-    "end_date": {
-      "type": "date"
     }
   }
 }

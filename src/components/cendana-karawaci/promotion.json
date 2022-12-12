@@ -12,11 +12,10 @@
     "subtitle": {
       "type": "string"
     },
-    "promos": {
-      "displayName": "Image Promotion",
-      "type": "component",
-      "repeatable": true,
-      "component": "cendana-karawaci.image-promotion"
+    "promotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::promotion.promotion"
     }
   }
 }

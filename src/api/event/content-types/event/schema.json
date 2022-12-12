@@ -25,7 +25,10 @@
     "date_text": {
       "type": "string"
     },
-    "date": {
+    "start_date": {
+      "type": "date"
+    },
+    "end_date": {
       "type": "date"
     },
     "place": {

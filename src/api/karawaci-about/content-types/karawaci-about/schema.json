@@ -34,6 +34,12 @@
       "repeatable": false,
       "component": "karawaci-about.section-1"
     },
+    "section_2": {
+      "displayName": "Section_2",
+      "type": "component",
+      "repeatable": false,
+      "component": "karawaci-about.section-2"
+    },
     "product": {
       "displayName": "Product",
       "type": "component",
@@ -46,11 +52,10 @@
       "repeatable": false,
       "component": "karawaci-about.contact-detail"
     },
-    "section_2": {
-      "displayName": "Section_2",
+    "Seo": {
       "type": "component",
       "repeatable": false,
-      "component": "karawaci-about.section-2"
+      "component": "shared.seo"
     }
   }
 }

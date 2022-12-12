@@ -16,9 +16,7 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "title": {
       "type": "string",
@@ -46,6 +44,11 @@
       "repeatable": true,
       "component": "cendana-story.section-2"
     },
+    "additional_data": {
+      "type": "component",
+      "repeatable": false,
+      "component": "cendana-story.additional-data"
+    },
     "product": {
       "displayName": "section_3",
       "type": "component",
@@ -56,11 +59,6 @@
       "type": "component",
       "repeatable": false,
       "component": "shared.seo"
-    },
-    "additional_data": {
-      "type": "component",
-      "repeatable": false,
-      "component": "cendana-story.additional-data"
     }
   }
 }

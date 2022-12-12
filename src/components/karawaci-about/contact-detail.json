@@ -6,6 +6,12 @@
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "subtitle": {
+      "type": "string"
+    },
     "map": {
       "displayName": "Map",
       "type": "component",
@@ -23,12 +29,6 @@
       "type": "component",
       "repeatable": false,
       "component": "karawaci-about.contact-data"
-    },
-    "title": {
-      "type": "string"
-    },
-    "subtitle": {
-      "type": "string"
     }
   }
 }

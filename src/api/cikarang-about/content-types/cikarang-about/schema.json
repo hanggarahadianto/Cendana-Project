@@ -52,6 +52,11 @@
       "type": "component",
       "repeatable": false,
       "component": "cikarang-about.contact-detail"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

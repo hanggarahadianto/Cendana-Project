@@ -16,18 +16,13 @@
       "type": "media",
       "multiple": true,
       "required": true,
-      "allowedTypes": [
-        "images"
-      ]
+      "allowedTypes": ["images"]
     },
     "video": {
       "type": "media",
       "multiple": true,
       "required": false,
-      "allowedTypes": [
-        "audios",
-        "videos"
-      ]
+      "allowedTypes": ["audios", "videos"]
     },
     "section_1": {
       "displayName": "Section 1",
@@ -41,16 +36,16 @@
       "repeatable": true,
       "component": "cendana-home.section-3"
     },
-    "seo": {
-      "type": "component",
-      "repeatable": false,
-      "component": "shared.seo"
-    },
     "product": {
       "displayName": "Product",
       "type": "component",
       "repeatable": false,
       "component": "cendana-home.product"
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.seo"
     }
   }
 }

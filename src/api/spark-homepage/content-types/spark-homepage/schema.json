@@ -43,6 +43,11 @@
       "type": "component",
       "repeatable": false,
       "component": "spark-home.unit-type"
+    },
+    "Seo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.seo"
     }
   }
 }
